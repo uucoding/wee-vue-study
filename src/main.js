@@ -3,8 +3,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import { setTitle } from './lib/util'
+import Bus from './lib/bus'
 
 Vue.config.productionTip = false
+// 将bus注册在全局vue上
+Vue.prototype.$bus = Bus
 
 new Vue({
   router,

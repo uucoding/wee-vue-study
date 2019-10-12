@@ -95,6 +95,10 @@ export default [
     }
   },
   {
+    path: '/bus-store',
+    component: () => import('@/views/bus-store.vue')
+  },
+  {
     path: '*',
     component: () => import('@/views/404.vue')
   }

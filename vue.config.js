@@ -16,7 +16,7 @@ module.exports = {
       //  表示src用  @ 代替
       .set('@', resolve('src'))
       //  表示src/coponents用  _c代替
-      .set('_c', resolve('src/coponents'))
+      .set('_c', resolve('src/components'))
   },
   // 打包时不生成.map文件，减小打包体积，加快打包速度
   productionSourceMap: false,

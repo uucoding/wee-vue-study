@@ -1,6 +1,7 @@
 import Vue from 'vue'
 
 /**
- * 声明一个空的vue对象，当作状态管理
+ * 构造vue
  */
-export const Bus = new Vue()
+const Bus = new Vue()
+export default Bus
